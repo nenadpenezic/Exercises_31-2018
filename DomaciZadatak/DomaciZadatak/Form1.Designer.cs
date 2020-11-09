@@ -39,6 +39,7 @@
             this.listBoxExerciseResults.Name = "listBoxExerciseResults";
             this.listBoxExerciseResults.Size = new System.Drawing.Size(380, 319);
             this.listBoxExerciseResults.TabIndex = 0;
+            this.listBoxExerciseResults.SelectedIndexChanged += new System.EventHandler(this.listBoxExerciseResults_SelectedIndexChanged);
             // 
             // novaForma
             // 
