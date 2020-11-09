@@ -28,13 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.listBoxExerciseResults = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
+            // 
+            // listBoxExerciseResults
+            // 
+            this.listBoxExerciseResults.FormattingEnabled = true;
+            this.listBoxExerciseResults.ItemHeight = 15;
+            this.listBoxExerciseResults.Location = new System.Drawing.Point(247, 51);
+            this.listBoxExerciseResults.Name = "listBoxExerciseResults";
+            this.listBoxExerciseResults.Size = new System.Drawing.Size(380, 319);
+            this.listBoxExerciseResults.TabIndex = 0;
             // 
             // novaForma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.listBoxExerciseResults);
             this.Name = "novaForma";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -43,6 +54,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.ListBox listBoxExerciseResults;
     }
 }
 
